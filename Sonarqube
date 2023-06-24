@@ -16,3 +16,8 @@ mvn sonar:sonar \
   -Dsonar.projectKey=maven-javawebapp-project \
   -Dsonar.host.url=http://54.83.190.35:9000 \
   -Dsonar.login=5efafd1d7bc402f50fa55deddb7f013e5c20c0cb
+
+
+Set JAVA Default Version to: Java 11
+=================================================
+sudo alternatives --config java
