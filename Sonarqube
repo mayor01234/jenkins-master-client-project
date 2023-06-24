@@ -1,0 +1,18 @@
+plugins {
+  id "org.sonarqube" version "2.7"
+}
+
+===================================================================
+
+./gradlew sonarqube \
+  -Dsonar.projectKey=gradle-javawebapp-project \
+  -Dsonar.host.url=http://54.83.190.35:9000 \
+  -Dsonar.login=31875bab50daf71a9618194260798a06d894846c
+
+
+==========================================================
+
+mvn sonar:sonar \
+  -Dsonar.projectKey=maven-javawebapp-project \
+  -Dsonar.host.url=http://54.83.190.35:9000 \
+  -Dsonar.login=5efafd1d7bc402f50fa55deddb7f013e5c20c0cb
